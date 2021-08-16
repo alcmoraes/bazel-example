@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Run main second router")
-	_ = router.GetEngine("Main App").Run(":8080")
+	_ = router.GetEngine("Second App").Run(":8080")
 }
