@@ -1,7 +1,7 @@
 package router
 
 import (
-	"go-webview-wasm/packages/shared/handlers/health"
+	"bazel-example/packages/shared/handlers/health"
 
 	"github.com/gin-gonic/gin"
 )

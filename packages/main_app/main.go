@@ -1,8 +1,8 @@
 package main
 
 import (
+	"bazel-example/packages/shared/handlers/router"
 	"fmt"
-	"go-webview-wasm/packages/shared/handlers/router"
 )
 
 func main() {

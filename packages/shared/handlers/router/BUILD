@@ -2,7 +2,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "router",
     srcs = ["router.go"],
-    importpath = "go-webview-wasm/packages/shared/handlers/router",
+    importpath = "bazel-example/packages/shared/handlers/router",
     visibility = ["//visibility:public"],
     deps = [
          "//packages/shared/handlers/health:health",

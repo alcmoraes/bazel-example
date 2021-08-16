@@ -1,4 +1,4 @@
-module go-webview-wasm
+module bazel-example
 
 go 1.16
 
